@@ -1,0 +1,59 @@
+<style>
+	#main-div {
+		max-width: 480px;
+		max-height: 200px;
+		margin: 45px auto;
+		padding: 35px;
+		border: solid;
+		border-color: #33FF99;
+		border-width: 25px;}
+	.static:hover {
+		background-color: black;
+		color: white;}
+	nav	{
+		position: fixed;
+  		top: 0;
+  		left: 0; 
+		width: 125px;}
+	.static {
+		position: static;
+		color: purple;
+		display: block;
+    	width: 100px;
+    	background-color: #66FF66;}
+	img {float: right;}
+	a {
+		padding: 30px;}
+	.attention-grabber {
+		margin-left: 125px;
+		border: red;
+		border-width: 60px;
+		position: relative;
+		float: right;}
+	p {color: red;}
+	header {
+		position: relative;
+		z-index: 1000;
+		background-position: 0 0;
+		background-size: cover;
+		width: 100%;
+		padding-bottom: 37.5%;
+	}
+	span {
+		color: blue;
+		font-family: 'oswald';
+		font-size: 15;}
+	.rest-of-page {
+		clear: left;
+		margin-left: 175px;
+	}
+	h2.hidden {
+		visibility: hidden;}
+	.no-column {
+		border: dashed;
+	}
+	.three-column {
+			border: solid;
+			padding: 1em;
+		}
+	</style>
