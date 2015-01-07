@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ralphy's new trick's</title>
+	<style>
+	#main-div {
+		max-width: 480px;
+		max-height: 200px;
+		margin: 45px auto;
+		padding: 35px;
+		border: solid;
+		border-color: #33FF99;
+		border-width: 25px;}
+	.static:hover {
+		background-color: black;
+		color: white;}
+	nav	{
+		position: fixed;
+  		top: 0;
+  		left: 0; 
+		width: 125px;}
+	.static {
+		position: static;
+		color: purple;
+		display: block;
+    	width: 100px;
+    	background-color: #66FF66;}
+	img {float: right;}
+	a {
+		padding: 30px;}
+	.attention-grabber {
+		margin-left: 125px;
+		border: red;
+		border-width: 60px;
+		position: relative;
+		float: right;}
+	p {color: red;}
+	header {
+		position: relative;
+		z-index: 1000;
+		background-position: 0 0;
+		background-size: cover;
+		width: 100%;
+		padding-bottom: 37.5%;
+	}
+	span {
+		color: blue;
+		font-family: 'oswald';
+		font-size: 15;}
+	.rest-of-page {
+		clear: left;
+		margin-left: 175px;
+	}
+	h2.hidden {
+		visibility: hidden;}
+	.no-column {
+		border: dashed;
+	}
+	.three-column {
+			border: solid;
+			padding: 1em;
+		}
+	</style>
+</head>
+<body>
+	<header style="background-image:url(http://www.jorgeyfilms.com/uploads/4/8/4/5/4845991/s834656759336225980_p21_i1_w1089.jpeg)"></header>
+	<div class="rest-of-page">
+	<nav>
+		<ul>
+			<li class="static">Home <a href="https://twitter.com/"></a></li>
+			<li class="static">About Us <a href="https://twitter.com/about"></a></li>
+			<li class="static">Products <a href="https://dev.twitter.com/"></a></li>
+			<li class="static">Contact Us <a href="https://business.twitter.com/"></a></li>
+		</ul>
+	</nav>
+	<div class="attention-grabber">Do the <strong>Links</strong></a> grab your attention?</div>
+	<h2>This is a displayed heading.</h2>
+		<p style="color:#CC3399">This is my <span>first</span> paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat dui eget hendrerit consequat. Nam non ligula mollis, efficitur mi quis, auctor quam. Curabitur pretium vulputate sapien sed suscipit. Etiam convallis auctor velit, a lobortis arcu fermentum sit amet. Mauris egestas quam a rhoncus tempus. Donec molestie lacus ac metus fringilla, quis semper massa pulvinar. Pellentesque ac lorem massa. Donec ultricies eu nibh nec sodales. Praesent in luctus diam, aliquam maximus neque. In et ante aliquam, dictum purus vitae, viverra quam. Phasellus viverra, metus vel malesuada condimentum, augue augue tempus neque, sit amet ornare dui sem sed mauris. Nam molestie lacus et urna ullamcorper egestas. Aliquam laoreet lobortis dui nec congue. Nulla facilisi. Integer accumsan risus eu urna hendrerit pellentesque.</p>
+		<p style="color:#FF0000">This is my <span>second</span> paragraph. Curabitur ut tristique elit. Quisque sit amet auctor orci. Sed a vehicula orci. Phasellus ultrices rutrum mi nec sagittis. Morbi fringilla sapien sed purus venenatis, in ornare lacus condimentum. Donec diam erat, pretium nec metus et, faucibus volutpat velit. In sagittis molestie leo et pharetra. <img src="http://www.lipsum.com/images/lipsum07.gif"> <img src="http://www.lipsum.com/images/lipsum08.gif"></p>
+		<p style="color:#33FF99">This is my <span>third</span> paragraph. Vivamus lacus nisl, rhoncus et magna sit amet, ornare gravida ligula. Aenean dictum sodales imperdiet. Nullam placerat purus felis, non feugiat urna pellentesque quis. Nunc vitae nulla lacinia, commodo augue et, auctor lectus. Praesent fermentum pretium turpis, iaculis vestibulum ante fermentum sed. Nunc semper malesuada lacus, eu pulvinar ligula fermentum sed. Nullam vestibulum eros nisi, ac tristique dolor congue sit amet. Duis quis ipsum porttitor, molestie erat nec, cursus tortor. Proin ultrices vehicula dui, eget porta ante placerat sed. Nam magna ante, euismod nec ex quis, condimentum posuere dui. Morbi consectetur sollicitudin ligula sit amet hendrerit.</p>
+		<p>Up ahead, im going to display one heading, while hiding a heading underneath it.</p>
+	<div id="main-div">This is my <strong>centered</strong> <span>"main"</span> div. Vestibulum ex dui, auctor eget lobortis a, ultricies ut justo. Pellentesque ornare sem turpis, eu accumsan arcu fringilla luctus. Mauris efficitur purus dui, ultrices congue ex sodales id. Nam ac dui et sem consequat mollis eget eu metus. Vivamus mattis est augue, sed pulvinar sapien vulputate eget. Mauris malesuada in leo ut placerat. Vivamus dapibus lorem metus, eu congue risus euismod ornare. Ut felis ipsum, suscipit vitae felis sed, iaculis tincidunt ipsum. Aenean ac turpis sed massa sollicitudin dapibus. Etiam ut scelerisque mi, vitae sodales turpis. Fusce eget nisl sapien. Vestibulum nunc ipsum, fringilla convallis scelerisque vel, sodales in ex. Cras in rhoncus urna. Etiam eget facilisis mi, eget blandit nibh.</div>
+	<div><section class="three-column">Fusce nisi lectus, aliquam sed facilisis in, dapibus ut dolor. Donec vel turpis facilisis, dapibus sem a, scelerisque erat. Morbi feugiat consectetur luctus. Mauris pulvinar ligula sed justo egestas imperdiet. Integer convallis scelerisque mi ac porttitor. Integer et est vitae dui porttitor commodo. Fusce a sapien eget diam faucibus cursus. Nunc id ipsum sed metus convallis aliquam. Sed semper lacus vitae hendrerit consectetur. Phasellus pulvinar hendrerit dolor vitae malesuada. Donec massa massa, dignissim sed consectetur nec, auctor ac nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</section>
+	<section class="no-column">Ut consectetur odio id dapibus volutpat. Integer consequat interdum interdum. Suspendisse rutrum hendrerit lectus in placerat. Quisque blandit odio nibh, non molestie lacus ultrices et. Integer ullamcorper consequat nibh ac congue. Nam lectus felis, fringilla vel ante et, fringilla aliquam elit. Sed eget vehicula est. Ut et odio mauris. Duis pretium augue id velit ullamcorper, nec congue turpis faucibus. Proin sodales, est quis posuere euismod, dolor justo varius dui, eget placerat neque augue a ligula. Ut tincidunt porttitor lorem non egestas. Pellentesque ac mattis massa. Nunc faucibus libero sed felis gravida, nec vehicula lectus faucibus.</section></div>
+	<h2>This is the displayed heading.</h2>
+	<h2 class="hidden">And this is the hidden heading. Notice how it takes up the space yet remains hidden?</h2>
+	<h2>Notice how the above heading is hidden away, but still takes up the space it would originally take up?</h2>
+	<h2>Crazy cool huh?</h2>
+	<h2>Now were going to go ahead and work on lists.</h2>
+		<ol>
+			<li>Favorite categories of GIF's.</li>
+				<ul>
+					<li>Adventure Time!!</li>
+					<li>Game of Thrones!!</li>
+					<li>Falling!</li>
+				</ul>
+			<li>Favorite movies.</li>
+				<ul>
+					<li>The Samurai</li>
+					<li>Sherlock Holmes</li>
+					<li>The Avengers</li>
+				</ul>
+			<li>Favorite shows.</li>
+				<ul>
+					<li>Game of Thrones</li>
+					<li>How I Met Your Mother</li>
+					<li>Drunk History</li>
+				</ul>
+		</ol>
+		</div>
+</body>
+</html>

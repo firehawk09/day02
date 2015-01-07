@@ -1,0 +1,74 @@
+.button {
+    position: fixed;
+    z-index: 1;
+    float: right;
+    background-image: position: fixed;
+    z-index: 1;
+    cursor: crosshair;
+    color: cadetblue;
+    background-color: blue;
+    margin: 5px 3px;
+    right: 10px;
+    top: 10px;
+    padding: 3px 3px;
+}
+header {
+    position: relative;
+    background-position: 0 0;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 37.5%;
+    z-index: -1;
+}
+.left {
+    float: left;
+    width: 20%;
+}
+.left .logo {
+    height: 100px;
+    width: 100px;
+    background-image: url(http://fc09.deviantart.net/fs70/f/2012/233/e/a/spray_can_head_ll_by_cplofscrewsloose-d5bwqjq.png);
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+    background-size: cover;
+    margin: -60px auto 0;
+}
+.left .static-nav {
+    position: static;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+img {
+    float: right;
+}
+#main-div {
+    max-width: 480px;
+    max-height: 200px;
+    margin: 45px auto;
+    padding: 35px;
+    border: solid;
+    border-color: #33FF99;
+    border-width: 25px;
+}
+.rest-of-page {
+    margin-left: 20%;
+}
+.cursive-paragraph {
+    font-family: cursive;
+    font-size: medium;}
+h2.hidden {
+    visibility: hidden;
+}
+.no-column {
+    border: dashed;
+}
+.three-column {
+    border: solid;
+    padding: 1em;
+}
+a:link {
+    text-decoration: none;
+}
