@@ -1,10 +1,8 @@
 .button {
     position: fixed;
-    z-index: 1;
     float: right;
-    background-image: position: fixed;
     z-index: 1;
-    cursor: crosshair;
+    font-family: times;
     color: cadetblue;
     background-color: blue;
     margin: 5px 3px;
@@ -58,7 +56,7 @@ img {
 }
 .cursive-paragraph {
     font-family: cursive;
-    font-size: medium;}
+}
 h2.hidden {
     visibility: hidden;
 }
